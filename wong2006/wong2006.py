@@ -74,7 +74,7 @@ class Model(object):
         self.I2 = np.zeros(N_record)
 
         # Loop over time points in a trial
-        for i_t in xrange(NT):
+        for i_t in range(NT):
             # Random dot stimulus
             Istim1 = Istim1_plot[i_t]
             Istim2 = Istim2_plot[i_t]
